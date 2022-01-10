@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <title>space tourism website</title>
+    <link rel="icon" type="image/x-icon" href="./assets/shared/logo.svg">
+</head>
+
+<body>
+    <div>
+        <div class="bgimg px-4 md:px-7 py-7">
+
+            <!-- header(from 640px) -->
+            <div class=" hidden sm:block">
+                <div class=" flex flex-row justify-between">
+                    <img src="./assets/shared/logo.svg" alt="" class=" h-16">
+
+                    <nav>
+                        <ul class=" navbg text-white flex flex-row px-4 lg:px-16 py-7 -mr-7 ">
+                            <li> <a href="home.html"
+                                    class=" text-lg font-semibold border-b-2 border-white duration-300 hover:opacity-60 "
+                                    id="menu1"><span class=" font-bold mr-1">00</span>HOME</a>
+                            </li>
+                            <li><a href="destination.html"
+                                    class=" text-lg font-semibold mx-5 md:mx-10 duration-300 hover:opacity-60"
+                                    id="menu2"><span class=" font-bold mr-1 ">01</span>DESTINATION</a>
+                            </li>
+                            <li><a href="crew.html"
+                                    class=" text-lg font-semibold mr-5 md:mr-10 duration-300 hover:opacity-60"
+                                    id="menu3"><span class=" font-bold mr-1">02</span>CREW</a>
+                            </li>
+                            <li><a href="technology.html"
+                                    class=" text-lg font-semibold mr-6 md:mr-12 lg:mr-24 duration-300 hover:opacity-60"
+                                    id="menu4"><span class=" font-bold mr-1">03</span>TECHNOLOGY</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- header(upto 640px) -->
+            <div class=" block sm:hidden">
+                <div class=" flex flex-row justify-between">
+                    <img src="./assets/shared/logo.svg" alt="" class=" h-8">
+                    <img src="./assets/shared/icon-hamburger.svg" alt="" class=" h-8" id="open">
+                </div>
+            </div>
+
+            <!-- navbar upto 640px -->
+            <nav id="nav">
+                <ul>
+                    <li><img src="./assets/shared/icon-close.svg" alt="" id="close"></li>
+                    <li class=" flex flex-row justify-between">
+                        <a href="home.html">00 HOME</a>
+                        <p class=" border-r-8  border-white -mr-16"></p>
+                    </li>
+                    <li><a href="destination.html">01 DESTINATION</a></li>
+                    <li><a href="crew.html">02 CREW</a></li>
+                    <li><a href="technology.html">03 TECHNOLOGY</a></li>
+                </ul>
+            </nav>
+
+            <!-- home content -->
+            <div class=" flex flex-col md:flex-row justify-center md:justify-between my-28 md:mx-5 lg:mx-20">
+                <div class=" w-auto md:w-96 text-center md:text-left">
+                    <p class=" text-gray-500 text-xl md:text-2xl font-serif">SO, YOU WANT TO TRAVEL TO</p>
+                    <p class=" my-7 text-white text-7xl font-serif">SPACE</p>
+                    <p class=" text-gray-400 text-lg">Let’s face it; if you want to go to space, you might as well
+                        genuinely go to outer space and not
+                        hover kind of on the
+                        edge of it. Well sit back, and relax because we’ll give you a truly out of this world
+                        experience!</p>
+                </div>
+
+                <div
+                    class="relative border-2 border-white h-60 w-60 rounded-full text-center bg-white explore-center mt-10 md:mt-0">
+                    <div class=" center">
+                        <p class=" font-serif text-3xl">Explore
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
